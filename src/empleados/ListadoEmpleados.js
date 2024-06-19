@@ -50,7 +50,7 @@ export default function ListadoEmpleados() {
                 <td><NumericFormat value={empleado.sueldoEmpleado}
                     displayType={'text'}
                     thousandSeparator=',' prefix={'$'}
-                    decimalScale={2} fixedDecimalScale/>
+                    decimalScale={0} fixedDecimalScale/>
                 </td>
             </tr>
             ))
